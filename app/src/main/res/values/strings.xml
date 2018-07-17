@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="play">play</string>
+    <string name="previous">Previous</string>
+    <string name="next">next</string>
+    <string name="song1">JaiHo</string>
+    <string name="singer1">A.R.Rahman</string>
+    <string name="song2">Blank Space</string>
+    <string name="singer2">Taylor Swift</string>
+    <string name="song3">Believer</string>
+    <string name="singer3">Imagine Dragons</string>
+    <string name="song4">Shape Of You</string>
+    <string name="singer4">Imagine Dragons</string>
+    <string name="song5">Sunn Raha Hai</string>
+    <string name="singer5">Shreya Ghoshal</string>
+    <string name="song6">Tum Hi Ho</string>
+    <string name="singer6">Arijit Singh</string>
+    <string name="song7">You are</string>
+    <string name="singer7">Dixon</string>
+    <string name="song">song</string>
+    <string name="singer">singer</string>
+</resources>

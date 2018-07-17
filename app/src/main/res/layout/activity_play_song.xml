@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <RelativeLayout
+       android:background="@color/darkPurple"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/three_five_zero_dp"
+       android:layout_margin="@dimen/sixteen_dp">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="@dimen/two_five_sp"
+           android:id="@+id/song_name"
+           android:background="@color/white"
+           android:textColor="@color/black"
+           android:layout_margin="@dimen/sixteen_dp"
+           tools:text="@string/song"
+           android:textAlignment="center"
+           />
+       <TextView
+           android:layout_marginStart="@dimen/sixteen_dp"
+           android:layout_marginEnd="@dimen/sixteen_dp"
+           android:layout_marginBottom="@dimen/twelve_dp"
+           android:layout_below="@id/song_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="@dimen/two_five_sp"
+           android:id="@+id/singer"
+           android:background="@color/white"
+           android:textColor="@color/black"
+           tools:text="@string/singer"
+           android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_below="@id/singer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_hundred_dp"
+            android:layout_margin="@dimen/twelve_dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/music"/>
+
+   </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fifty_dp"
+        android:layout_marginStart="@dimen/sixteen_dp"
+        android:layout_marginEnd="@dimen/sixteen_dp"
+        android:padding="@dimen/sixteen_dp">
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@drawable/button_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous"/>
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@drawable/button_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play" />
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/next"
+            android:background="@drawable/button_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
