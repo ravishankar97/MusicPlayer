@@ -1,8 +1,8 @@
 package com.example.ravishankar.musicplayer;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         CustomSongAdapter  adapter = new CustomSongAdapter(this,songs);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(adapter);
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {

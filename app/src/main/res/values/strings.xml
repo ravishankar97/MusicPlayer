@@ -19,4 +19,6 @@
     <string name="singer7">Dixon</string>
     <string name="song">song</string>
     <string name="singer">singer</string>
+    <string name="song_name">song_name</string>
+    <string name="singer_song">singer_name</string>
 </resources>

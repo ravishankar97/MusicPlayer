@@ -13,11 +13,9 @@ import java.util.ArrayList;
 
 public class CustomSongAdapter extends ArrayAdapter<Song> {
 
-
     public CustomSongAdapter(Context context, ArrayList<Song> pWords ) {
         super(context,0, pWords);
     }
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -35,6 +33,5 @@ public class CustomSongAdapter extends ArrayAdapter<Song> {
         defaultTextView.setText(my_word.getSongInfo());
 
         return listItemView;
-        //return super.getView(position, convertView, parent);
     }
 }

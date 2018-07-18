@@ -4,20 +4,35 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="@dimen/sixteen_dp"
     android:id="@+id/list_view">
 
     <TextView
-        android:id="@+id/name2"
-        android:layout_width="268dp"
-        android:layout_height="29dp"
-        android:textColor="#000"
-        tools:text="the cold reaper" />
-    <TextView
         android:id="@+id/name1"
-        android:layout_width="268dp"
-        android:layout_height="29dp"
-        android:textColor="#000"
-        tools:text="wordsworth" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:padding="@dimen/twelve_dp"
+        android:textColor="@color/white"
+        tools:text="@string/song_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="@dimen/five"
+        android:layout_marginStart="@dimen/five"
+        android:background="@color/white">
+
+    </View>
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:gravity="end"
+        android:padding="@dimen/twelve_dp"
+        android:textColor="@color/white"
+        tools:text="@string/singer_song" />
 
 </LinearLayout>
