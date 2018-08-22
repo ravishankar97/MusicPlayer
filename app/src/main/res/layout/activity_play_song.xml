@@ -33,7 +33,9 @@
                 android:layout_below="@id/song_name"
                 android:layout_marginEnd="@dimen/twelve_dp"
                 android:layout_marginStart="@dimen/twelve_dp"
-                android:background="@color/white"></View>
+                android:background="@color/white">
+
+            </View>
 
             <TextView
                 android:id="@+id/singer"

@@ -19,6 +19,14 @@ public class Song {
     public String getSongInfo() {
         return mSongInfo;
     }
+
+    @Override
+    public String toString() {
+        return "Song{" +
+                "mSongName='" + mSongName + '\'' +
+                ", mSongInfo='" + mSongInfo + '\'' +
+                '}';
+    }
 }
 
 
